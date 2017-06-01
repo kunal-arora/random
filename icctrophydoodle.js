@@ -5,7 +5,7 @@ function jack() {
 		var targetNode = document.getElementById("hplogo").querySelector("canvas");
 		if (targetNode) {
 	    		setTimeout(function() {
-			    triggerMouseEvent (targetNode, "mouseover");
+			    triggerMouseEven (targetNode, "mouseover");
 			    triggerMouseEvent (targetNode, "mousedown");
 			    triggerMouseEvent (targetNode, "mouseup");
 			    triggerMouseEvent (targetNode, "click");
@@ -24,4 +24,4 @@ function jack() {
 }
 jack();
 
-// run jack(); again after sometime or you can re-factor the code and make it better.
+// run jack(); again after sometime or you can re-factor the code.
